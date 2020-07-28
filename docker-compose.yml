@@ -13,7 +13,7 @@ services:
     container_name: mongo-app
     image: mongo
     ports:
-      - '27018:27017'
+      - '27017:27017'
 
   #mongo:
     #container_name: mongo
