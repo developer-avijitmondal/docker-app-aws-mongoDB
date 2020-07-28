@@ -9,14 +9,9 @@ services:
       - '4000:4000'
     links:
       - mongo-app
-  mongo-app:
-    container_name: mongo-app
+
+  mongo:
+    container_name: mongo
     image: mongo
     ports:
-      - '27017:27017'
-
-  #mongo:
-    #container_name: mongo
-    #image: mongo
-    #ports:
-      #- '27017:27017'    
+      - '27017:27017'    
